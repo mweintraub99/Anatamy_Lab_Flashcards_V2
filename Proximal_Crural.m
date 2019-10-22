@@ -1,6 +1,6 @@
-function pb = proximal_brachial()
+function pb = Proximal_Crural()
     clear; clc;
-    [~,txt,~] = xlsread('Anatomy_Lab_Midterm.xlsx', 'proximal_brachial');
+    [~,txt,~] = xlsread('Anatomy_Lab_Midterm.xlsx', 'Proximal_Crural');
     for i = 1:length(txt)
         a(i) = struct('image', txt(i,1), 'name', txt(i,2));
     end
